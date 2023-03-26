@@ -1,4 +1,4 @@
-## GITHUB
+§## GITHUB
 
 # O que vamos aprender?
 Depois de aprender o que é o Git, chegou o momento de conhecer o que é GitHub, uma plataforma que vai te ajudar a salvar seus códigos remotamente e a trabalhar de maneira colaborativa e distribuída. Hoje você vai estudar algumas técnicas para salvar seus projetos no GitHub e maximizar a eficiência do trabalho em grupo, a fim de garantir uma boa qualidade do software que você escreve.
