@@ -26,3 +26,16 @@
   .border {
     border: 5px solid black;
   }
+
+  #A {
+margin-top: 100px;
+;
+  }
+
+#aside {
+     display: block;
+    float: right;
+    height: 150px;
+    margin: -20px 0px 0px -10px;
+    position: relative;
+}
