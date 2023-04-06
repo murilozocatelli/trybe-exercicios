@@ -238,17 +238,142 @@ console.log(estacaoDoAno);
 //
 
 let situacao = 'aprovada';
-
 switch(situacao) { 
     case 'aprovada':
-        console.log ("Parabéns, você está no grupo de pessoas aprovadas!");
+        console.log("Parabéns, você está no grupo de pessoas aprovadas!");
         break;
     case 'lista':
-        console.log ("Você está na nossa lista de espera.");
+        console.log("Você está na nossa lista de espera.");
         break;
     case 'reprovada':
-        console.log ("infelizmente, você reprovou.");
+        console.log("infelizmente, você reprovou.");
         break;
-    default
+    default:
         console.log("Informação incorreta.")
+  }
+
+let status = 'aprovada';
+switch(status) {
+    case 'aprovada':
+      console.log("Parabéns, você está no grupo de pessoas aprovadas!");
+      break;
+    case 'lista':
+      console.log("Você está na nossa lista de espera.");
+      break;
+    case 'reprovada':
+      console.log("Infelizmente, você reprovou.");
+      break;
+    default:
+      console.log("Informação incorreta.");
+  }
+
+//
+let a = 3;
+let b = 2;
+
+console.log(a + b);
+console.log(a - b);
+console.log(b - a);
+console.log(a * b);
+console.log(b ** a);
+console.log(b / a);
+console.log(a % b)
+
+let c = 3;
+let d = 4;
+
+if (c > d) {
+    console.log('c');
+} else if (c < d) {
+    console.log('d');
+};
+  else { 
+    console.log('os números são iguais')
+  }; 
+
+    let a = 22;
+    let b = 22;
+
+    if (a > b) {
+    console.log("'a' é maior que 'b'");
+    } else if (b > a) {
+    console.log("'b' é maior que 'a'");
+    } else if (b = a) {
+        console.log("'b' é maior que 'a'");
+        };
+ 
+
+        let a = 21;
+        let b = 21;
+        
+        if (a > b) {
+          console.log("'a' é maior que 'b'");
+        } else if (b > a) {
+          console.log("'b' é maior que 'a'");
+        };
+            else {
+            console.log ("os números são iguais");
+            };
+
+
+            let a = "murilo"
+            let b = "antonio"
+
+        if (a = "murilo"){
+            console.log('meu nome é murilo')
+        }
+            else if (a = "blabal"){
+            console.log('meu nome não é murilo')
+        };
+            else {console.log('erro')}
+
+let a = 20;
+let b = 23;
+
+if (a > b) {
+  console.log("'a' é maior que 'b'");
+} else if (a = b) {
+    console.log("a é igual a b")
 }
+    else {
+  console.log("'b' é maior que 'a'");
+};
+           
+
+let a = 6;
+let b = 7;
+let c = 5;
+
+    if (a > b || a > c){
+        console.log(a + " é o maior número entre os três números.")
+    } else if (b > a || b > c){ 
+        console.log(b + " é o maior número entre os três números.")
+    } else if (c > a || c > b){
+        console.log(c + " é o maior dos três números")
+    }
+
+
+let a = 0;
+
+    if (a > 0){
+        console.log("positivo")
+    } else if (a < 0) {
+        console.log("negativo")
+    } else if (a === 0){
+        console.log("zero")
+    }
+
+let a = 30;
+let b = 30;
+let c = 3;
+
+    if (a + b + c === 180){
+        console.log ('true')
+    }
+        else if (a < 0 || b < 0 || c < 0){
+            console.log('erro')
+        }
+        else if ((a + b + c) > 180 || (a + b + c) < 180){
+            console.log('false')
+        }
+       
