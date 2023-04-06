@@ -376,4 +376,161 @@ let c = 3;
         else if ((a + b + c) > 180 || (a + b + c) < 180){
             console.log('false')
         }
-       
+    
+
+let peça = 'Torre';
+switch (peça.toLowerCase()) {
+    case 'peão' : console.log("move uma casa a frente");
+    break;
+    case 'torre': console.log("linhas retas")
+    break
+    case 'bispo': console.log("diagonais");
+    break;
+    case 'cavalo': console.log("pula em 'L'");
+    break;
+    case 'rainha': console.log("todas as direções");
+    break;
+    case 'rei': console.log('uma casa');
+    break;
+}
+
+
+let nota = 110;
+
+if (nota < 0 || nota > 100){
+    console.log("erro");
+    }
+    else if 
+    (nota >= 90 && nota <= 100 ){
+        console.log("A")};
+    else if (nota >= 80 && nota < 90) {
+        console.log("B");
+    }
+    else if (nota >= 70 && nota < 80) {
+        console.log("C");
+    }
+    else if (nota >= 60 && nota < 70) {
+        console.log("D");
+    }
+    else if (nota >= 50 && nota < 60) {
+        console.log("E");
+    }
+    else {
+        console.log("F");
+    }
+    
+
+
+let grade = 76;
+
+if (grade < 0 || grade > 100) {
+  console.log("Erro, nota incorreta!");
+} else if (grade >= 90) {
+  console.log("A");
+} else if (grade >= 80) {
+  console.log("B");
+} else if (grade >= 70) {
+  console.log("C");
+} else if (grade >= 60) {
+  console.log("D");
+} else if (grade >= 50) {
+  console.log("E");
+} else {
+  console.log("F");
+}
+
+let a = 2;
+let b = 3;
+let c = 2;
+
+
+
+if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0){
+    console.log("true");
+    else {
+    console.log("false")
+    }
+}
+
+let a = 2;
+let b = 3;
+let c = 5;
+
+let isEven = false;
+
+if((a % 2 === 0 || b % 2 === 0 || c % 2 === 0)) {
+  isEven = true;
+};
+console.log(isEven);
+
+//
+
+let custo = 1;
+let venda = 3;
+let imposto = 20 * custo / 100
+
+let lucro = (venda - custo - imposto) * 1000
+
+
+if (custo < 0 || venda < 0 || lucro < 0|| imposto < 0){
+    console.log("erro")
+}
+    else {
+        console.log(lucro)
+    }
+
+
+let costOfProduct = 1;
+let saleValue = 3;
+
+if (costOfProduct >= 0 && saleValue >= 0) {
+  let totalCostOfProduct = costOfProduct * 1.2;
+  let totalProfit = (saleValue - totalCostOfProduct) * 1000;
+  console.log(totalProfit);
+} else {
+  console.log("Error, os valores não podem ser negativos!");
+};
+
+//
+
+let salarioBruto = 1000;
+
+if (salarioBruto <= 1.556,94){
+    console.log("salário:" + salarioBruto * 0.92);
+} else {
+    console.log('erro')
+}
+
+
+
+    let aliquotINSS;
+    let aliquotIR;
+    
+    let grossSalary = 2000.00;
+    
+    if (grossSalary <= 1556.94) {
+      aliquotINSS = grossSalary * 0.08;
+    } else if (grossSalary <= 2594.92) {
+      aliquotINSS = grossSalary * 0.09;
+    } else if (grossSalary <= 5189.82) {
+      aliquotINSS = grossSalary * 0.11;
+    } else {
+      aliquotINSS = 570.88;
+    }
+    
+    let baseSalary = grossSalary - aliquotINSS;
+    
+    if (baseSalary <= 1903.98) {
+      aliquotIR = 0;
+    } else if (baseSalary <= 2826.65) {
+      aliquotIR = (baseSalary * 0.075) - 142.80;
+    } else if (baseSalary <= 3751.05) {
+      aliquotIR = (baseSalary * 0.15) - 354.80;
+    } else if (baseSalary <= 4664.68) {
+      aliquotIR = (baseSalary * 0.225) - 636.13;
+    } else {
+      aliquotIR = (baseSalary * 0.275) - 869.36;
+    };
+    
+    console.log("Salário: " + (baseSalary - aliquotIR));
+    
