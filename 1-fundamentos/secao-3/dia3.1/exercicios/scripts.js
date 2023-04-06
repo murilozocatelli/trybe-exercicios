@@ -50,5 +50,31 @@ console.log(area);
 let perimetro = (2*base + 2*height);
 console.log(perimetro);
 
-//
+//if - se
+//else - senão
+
+if (condicao) {
+     //codigo
+}
+else if (outraCondicao){
+    //outra codigo
+}
+else if (outraCondicao){
+    //outra codigo
+}
+else {
+    //condicao
+}
+
+let nota = 65
+if (nota >= 80){
+    console.log("Parabéns, você faz parte do grupo de pessoas aprovadas")
+}
+else if (nota < 80 & nota >=60){
+    console.log("")
+
+}
+else if (nota < 60) {
+    
+}
 
