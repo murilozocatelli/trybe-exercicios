@@ -533,4 +533,4 @@ if (salarioBruto <= 1.556,94){
     };
     
     console.log("Salário: " + (baseSalary - aliquotIR));
-    
+  
