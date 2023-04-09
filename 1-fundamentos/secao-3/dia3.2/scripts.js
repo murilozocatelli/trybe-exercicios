@@ -89,7 +89,7 @@ if (sum > 15) {
   console.log('valor menor que 16');
 }
 
-let n = 12;
+let n = 3;
 
 let resultado = 100;
 for (let index = 0; index <= n; index += 1) {
