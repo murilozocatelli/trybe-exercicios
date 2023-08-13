@@ -1,15 +1,37 @@
-h1, p {
-    text-align: center;
+div:hover {
+
+        border: 2px solid black
+    }
+
+div:nth-of-type(1) {
+    background-color: yellow;
+}
+div:nth-of-type(2) {
+    background-color: orange;
+}
+div:nth-of-type(3) {
+    height: 10em;
+    background-color: purple;
+}
+div:nth-of-type(4) {
+    background-color: brown;
+}
+div:nth-of-type(5) {
+    background-color: antiquewhite;
 }
 
-li:hover {
-    background-color: aquamarine;
+div:nth-of-type(1) > h3 {
+    color: blue;
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-li:active {
-    font-family: monospace;
+div:nth-of-type(2) > h3 {
+    color: black;
+    font-size: small;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-ul, ol {
-    list-style: none;
-}
+ div:nth-of-type(3) > h3 {
+    font-;
+ }
