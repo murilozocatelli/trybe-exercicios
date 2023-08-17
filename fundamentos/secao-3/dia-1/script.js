@@ -35,3 +35,24 @@
 // } else {
 //     console.log(false)
 // }
+
+// let peca1 = 'borre';
+// 'torre';
+// 'cavalo';
+// 'bispo';
+// 'rainha';
+// 'rei';
+
+// let peca1geral = peca1.toLowerCase()
+
+// switch (peca1geral) {
+//     case 'peao':
+//         console.log('uma casa a frente')
+//         break;
+//     case 'torre':
+//         console.log('quantas casas quiser horinzontal e vertical')
+//         break
+//     default:
+//         console.log('defina a peça')
+//         break;
+// }
