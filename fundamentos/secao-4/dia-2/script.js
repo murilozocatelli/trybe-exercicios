@@ -1,17 +1,31 @@
-const whereAreYou = document.getElementById('where-are-you')
+// // Arquivo script.js
 
-const parentWhereAreYou = whereAreYou.parentElement
-parentWhereAreYou.style.color = 'red'
+// // Cria um novo elemento <li> e o armazena na variável newElement
+// let newElement = document.createElement('li');
 
-const firstChildOfChilf = whereAreYou.firstElementChild
-firstChildOfChilf.innerText = 'texto adicionado a ele'
+// // Acessa o novo elemento armazenado em newElement e altera seu conteúdo
+// newElement.innerHTML = 'Um texto para o novo elemento';
 
-const firstChild = parentWhereAreYou.firstChild
+// // Recupera o elemento que será o pai de newElement e o armazena na variável parent
+// let parent = document.getElementById('parent');
 
-const firstChild2 = whereAreYou.previousElementSibling
+// // Insere o novo elemento como filho de parent
+// parent.appendChild(newElement);
 
-const attention = whereAreYou.nextSibling
+let irmaoDeOnde = document.createElement('p');
+irmaoDeOnde.innerHTML = 'testando <b> strong </b>';
+let parent = document.getElementById('elementoOndeVoceEsta').parentElement;
+parent.appendChild(irmaoDeOnde);
 
-const thirdChild = whereAreYou.nextElementSibling
+let filhoDeOnde = document.createElement('section');
+filhoDeOnde.innerText = 'filho do Donde'
+let paiDeOnde = document.getElementById('elementoOndeVoceEsta');
+paiDeOnde.appendChild(filhoDeOnde);
 
-const thirdChild2 = parentWhereAreYou.lastElementChild.previousElementSibling
+let bisneto = document.createElement('p');
+bisneto.innerHTML = '<i> itálico ?</i>';
+let paiDoBisneto = document.getElementById('primeiroFilhoDoFilho');
+paiDoBisneto.appendChild(bisneto);
+
+let tioAvoDoBisneto = bisneto.parentElement.parentElement.nextElementSibling;
+
